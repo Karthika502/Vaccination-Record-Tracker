@@ -1,4 +1,5 @@
 🧬 Vaccination Tracker
+
 📖 Overview
 
 Vaccination Tracker is a Spring Boot–based web application designed to simplify the process of tracking and managing vaccination details.
@@ -13,7 +14,7 @@ Build Tool: Maven
 
 Database: MySQL / H2 (configurable)
 
-Frontend: Thymeleaf / React (optional integration)
+Frontend: Thymeleaf 
 
 Security: Spring Security (JWT or Basic Auth)
 
@@ -76,13 +77,16 @@ vaccination-tracker/
 💡 Future Enhancements
 
 🔹 Add vaccination reminder notifications
+
 🔹 Integrate government vaccine APIs
+
 🔹 Generate vaccination certificates
+
 🔹 Mobile-friendly frontend
 
 👨‍💻 Author
 
 Your Name
 📧 [your.email@example.com
-]
+
 🌐 [GitHub Profile Link]
