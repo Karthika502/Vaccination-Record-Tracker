@@ -1,19 +1,26 @@
 🧬 Vaccination Tracker
-
 📖 Overview
+
 Vaccination Tracker is a Spring Boot–based web application designed to simplify the process of tracking and managing vaccination details.
 It allows users to register, book vaccine appointments, view their vaccination status, and manage vaccine records efficiently.
 Built with Java 17 and Spring Boot 3, it follows a modular and secure architecture.
 
 ⚙️ Tech Stack
+
 Backend: Spring Boot 3, Java 17
+
 Build Tool: Maven
+
 Database: MySQL / H2 (configurable)
-Frontend: HTML , CSS , JS
+
+Frontend: Thymeleaf / React (optional integration)
+
 Security: Spring Security (JWT or Basic Auth)
+
 IDE: IntelliJ IDEA / VS Code
 
 🚀 Features
+
 ✅ User registration and authentication
 ✅ Vaccination booking and scheduling
 ✅ View vaccine details and records
@@ -22,11 +29,15 @@ IDE: IntelliJ IDEA / VS Code
 ✅ RESTful APIs for future expansion
 
 🛠️ Installation & Setup
+
 Clone the Repository
+
 git clone https://github.com/your-username/vaccination-tracker.git
 cd vaccination-tracker
 
+
 Open in IntelliJ IDEA / VS Code
+
 Configure the Database
 Update the application.properties file:
 
@@ -35,14 +46,16 @@ spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 
+
 Build & Run
+
 mvn clean install
 mvn spring-boot:run
+
 
 Access the Application
 Open your browser and go to:
 👉 http://localhost:8080
-
 
 📂 Project Structure
 vaccination-tracker/
@@ -61,6 +74,7 @@ vaccination-tracker/
  └── pom.xml
 
 💡 Future Enhancements
+
 🔹 Add vaccination reminder notifications
 🔹 Integrate government vaccine APIs
 🔹 Generate vaccination certificates
