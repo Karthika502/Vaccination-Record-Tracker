@@ -58,21 +58,6 @@ Access the Application
 Open your browser and go to:
 👉 http://localhost:8080
 
-📂 Project Structure
-vaccination-tracker/
- ├── src/
- │   ├── main/
- │   │   ├── java/com/vaccinetracker/
- │   │   │   ├── controller/
- │   │   │   ├── model/
- │   │   │   ├── repository/
- │   │   │   ├── service/
- │   │   │   └── VaccinationTrackerApplication.java
- │   │   └── resources/
- │   │       ├── application.properties
- │   │       └── templates/
- │   └── test/
- └── pom.xml
 
 💡 Future Enhancements
 
@@ -84,9 +69,3 @@ vaccination-tracker/
 
 🔹 Mobile-friendly frontend
 
-👨‍💻 Author
-
-Your Name
-📧 [your.email@example.com
-
-🌐 [GitHub Profile Link]
